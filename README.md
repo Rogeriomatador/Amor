@@ -25,3 +25,5 @@ Three.js 0.187.0 incluído localmente, licença MIT em `dist/vendor/package/LICE
 O Caminho dos Vagalumes agora é uma travessia escura até o companheiro: chama de 1,15 s, recarga de 1,65 s, três descansos, obstáculos e retorno sem perder vida. Luzes normais são restauradas ao sair do modo.
 
 A floresta tem trilha de aproximadamente 80 unidades de jogo, vegetação instanciada, duas pontes, troncos e cinco descansos. As copas entre a câmera e a personagem são ocultadas para preservar visibilidade. Cair no riacho retorna ao último descanso.
+
+Revisão de recompensas: ao vencer, os controles da atividade são encerrados e a exploração retorna. A conquista pendente é salva localmente antes do baú, com opção de resgate no menu após recarregar. A tampa abre antes de mostrar a carta. Testes cobrem o acesso ao baú nos seis modos.
