@@ -1,0 +1,8 @@
+*.zip
+*.tgz
+*.tar.gz
+chat.*
+.openai/
+__pycache__/
+patch4.py
+modes4.py
