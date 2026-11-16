@@ -1,6 +1,6 @@
 import {buildForest,inRiver,forestRoute} from './forest.js';
 import {T,scene,camera,renderer,terrain,clearWorld,avatar,animateAvatar,shadowEnemy,house,turret,mesh,box,mat,crystal,ring,burst,animateEffects,disposeObject,chestModel,project,restPose,setNight,environment} from './visuals3.js';
-import {chapters} from './story3.js';import {collides,wallsFor,slide,pathfind} from './rules3.js';
+import {chapters} from './story3.js';import {collides,wallsFor,slide,pathfind} from './rules3.js?v=forest-2';
 const $=s=>document.querySelector(s),clamp=(x,a,b)=>Math.max(a,Math.min(b,x)),dist=(a,b)=>Math.hypot(a.x-b.x,a.z-b.z),V=(x=0,y=0,z=0)=>new T.Vector3(x,y,z);
 let save={level:1,stars:0,cards:[],training:false,wins:[]};try{let s=JSON.parse(localStorage.getItem('yasmin-3d-v1'));if(s&&Number.isSafeInteger(s.level)&&s.level>0)save={...save,...s,cards:Array.isArray(s.cards)?s.cards.filter(x=>Number.isInteger(x)&&x>=0&&x<chapters.length):[],wins:Array.isArray(s.wins)?s.wins.filter(x=>Number.isInteger(x)&&x>0):[]}}catch{}
 function persist(){try{localStorage.setItem('yasmin-3d-v1',JSON.stringify(save))}catch{}$('#coins').textContent=save.stars}
