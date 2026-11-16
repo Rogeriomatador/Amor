@@ -21,3 +21,5 @@ Este repositório é público. As cartas são textos originais e editáveis em `
 ## Recursos
 
 Three.js 0.187.0 incluído localmente, licença MIT em `dist/vendor/package/LICENSE`. Cenários, personagens, ícones e demais formas são construídos por código e não dependem de recursos do ChatGPT.
+
+O Caminho dos Vagalumes agora é uma travessia escura até o companheiro: chama de 1,15 s, recarga de 1,65 s, três descansos, obstáculos e retorno sem perder vida. Luzes normais são restauradas ao sair do modo.

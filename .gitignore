@@ -6,3 +6,4 @@ chat.*
 __pycache__/
 patch4.py
 modes4.py
+night_patch.py
