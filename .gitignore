@@ -7,3 +7,7 @@ __pycache__/
 patch4.py
 modes4.py
 night_patch.py
+
+forest_patch.py
+canopy_patch.py
+verify_forest.py
