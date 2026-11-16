@@ -33,3 +33,11 @@ Revisão de recompensas: ao vencer, os controles da atividade são encerrados e 
 No restaurante, cada pedido tem passos ilustrados. Abra o pão arrastando pela guia; selecione a faca e faça dois cortes para frango e vegetais; segure o frasco de molho; enrole e só então sirva. A câmera aproxima da bancada e o prazo pausa durante o gesto. Voltar cancela apenas o ingrediente atual. As imagens SVG originais estão em `dist/icons/`, e os modelos e validação de gestos em `dist/kitchen.js`.
 
 A pesca tem retorno visual da tensão, linha curvada e animação de captura; as teclas do ritmo respondem ao toque e a prévia das torretas sinaliza posições inválidas.
+
+## Orientação e pausas
+
+As instruções completas aparecem na primeira entrada de cada atividade e podem ser reabertas no botão ?. A carga da chama fica junto ao botão de acender; mensagens contextuais desaparecem após alguns segundos. O modo leve reduz resolução e desativa sombras, mantendo as regras e o progresso.
+
+As recompensas usam uma clareira separada. Casas, portas, torretas, vegetação e utensílios da atividade são removidos antes de colocar o baú numa área livre e alcançável.
+
+Rabiscos é um espaço opcional sem nota, prazo ou pagamento. O desenho é salvo somente no navegador e pode ser desfeito ou exportado em PNG; nada é compartilhado automaticamente.

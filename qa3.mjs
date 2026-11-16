@@ -29,3 +29,5 @@ q.startRestaurant();q.closeModal();s=q.getState();let stable=s.assembled.length;
 q.go();q.startRestaurant();s=q.getState();assert.equal(s.assembled.length,0);
 q.go();q.startDefense();q.chooseHome(0);s=q.getState();q.getHouses()[0].hp=1;s.target=0;s.phase='attack';s.attack=2;s.timer=5;q.updateDefense(.016);assert.equal(q.getHp(),0,'losing the chosen home must end the level');
 console.log('PASS: rhythm free misses and guaranteed failure, defense loss ignores invincibility')}
+
+q.startDefense();q.closeModal();q.chooseHome(0);let oldHome=q.getHouses()[0];oldHome.doorOpen=false;q.hero.position.set(oldHome.x,0,oldHome.z+2.8);q.victory();assert.equal(modules.get('visuals3.js').namespace.scene.getObjectById(oldHome.root.id),undefined,'reward scene must remove every door and house');assert.equal(q.getWalls().length,0);assert.ok(q.hero.position.distanceTo(q.getChest().position)<3.2);assert.ok(q.getSave().tutorials.defense);assert.ok(els.get('#actionInfo'));console.log('PASS: reward clearing removes doors and furniture, chest in reach, tutorial remembered and contextual action status exists');
