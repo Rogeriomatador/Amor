@@ -41,3 +41,9 @@ As instruções completas aparecem na primeira entrada de cada atividade e podem
 As recompensas usam uma clareira separada. Casas, portas, torretas, vegetação e utensílios da atividade são removidos antes de colocar o baú numa área livre e alcançável.
 
 Rabiscos é um espaço opcional sem nota, prazo ou pagamento. O desenho é salvo somente no navegador e pode ser desfeito ou exportado em PNG; nada é compartilhado automaticamente.
+
+## Campanha com fim
+
+São seis fases autorais, uma de cada atividade. Cada fase tem introdução, duas mensagens de percurso e uma conclusão própria, disponível em Mensagens da campanha. A sexta termina em uma tela de fim; não há repetição automática. Aventuras é treino livre e não avança a campanha nem distribui novas recompensas. Progresso anterior permanece salvo; quem já passou da sexta fase vê o encerramento.
+
+Na pesca, pegue a vara no suporte, deslize para lançar (ou escolha o lançamento assistido), aguarde a boia, fisgue e controle a tensão. A vara acompanha a mão e a linha é animada. Os cortes do restaurante têm um exemplo visual e preservam cortes completos após interrupção do toque.
