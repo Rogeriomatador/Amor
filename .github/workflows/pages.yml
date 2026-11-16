@@ -21,6 +21,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - run: node build-offline.mjs
+      - run: node qa-offline.mjs
       - run: node --check dist/main3.js
       - run: node --experimental-vm-modules qa3.mjs
       - uses: actions/configure-pages@v5

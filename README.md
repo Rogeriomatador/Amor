@@ -47,3 +47,13 @@ Rabiscos é um espaço opcional sem nota, prazo ou pagamento. O desenho é salvo
 São seis fases autorais, uma de cada atividade. Cada fase tem introdução, duas mensagens de percurso e uma conclusão própria, disponível em Mensagens da campanha. A sexta termina em uma tela de fim; não há repetição automática. Aventuras é treino livre e não avança a campanha nem distribui novas recompensas. Progresso anterior permanece salvo; quem já passou da sexta fase vê o encerramento.
 
 Na pesca, pegue a vara no suporte, deslize para lançar (ou escolha o lançamento assistido), aguarde a boia, fisgue e controle a tensão. A vara acompanha a mão e a linha é animada. Os cortes do restaurante têm um exemplo visual e preservam cortes completos após interrupção do toque.
+
+## Instalação e uso offline
+
+O jogo agora tem manifest, ícones próprios e service worker. Abra uma vez com internet e espere o aviso **Pronto para jogar offline**. Use **Instalar / offline** no menu para instalar ou ver as instruções do aparelho. O primeiro download precisa terminar; o simples atalho não garante que os arquivos estejam completos.
+
+No iPhone, abra no Safari e use Compartilhar → Adicionar à Tela de Início. Em navegadores Android compatíveis, o botão de instalação aparece quando o navegador oferece essa opção; o menu do navegador também pode oferecer instalação.
+
+Todos os recursos são locais, incluindo Three.js, fases, imagens e áudio sintetizado. O cache usa o escopo do projeto `/Amor/`, preserva caches de outros aplicativos e instala a versão inteira antes de ativar. Atualizações prontas não interrompem partidas: o menu oferece reabrir para atualizar. Progresso e desenhos ficam no navegador; limpar os dados do site pode removê-los.
+
+Antes de publicar mudanças: `node build-offline.mjs` e `node qa-offline.mjs`. O workflow executa esses passos automaticamente. Os testes desligam o acesso à rede no ambiente do service worker e verificam todos os arquivos, rotas, versões de query, download interrompido e atualização opcional. A reabertura no navegador também foi verificada com o servidor local desligado.
