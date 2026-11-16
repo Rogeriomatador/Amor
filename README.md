@@ -27,3 +27,9 @@ O Caminho dos Vagalumes agora é uma travessia escura até o companheiro: chama 
 A floresta tem trilha de aproximadamente 80 unidades de jogo, vegetação instanciada, duas pontes, troncos e cinco descansos. As copas entre a câmera e a personagem são ocultadas para preservar visibilidade. Cair no riacho retorna ao último descanso.
 
 Revisão de recompensas: ao vencer, os controles da atividade são encerrados e a exploração retorna. A conquista pendente é salva localmente antes do baú, com opção de resgate no menu após recarregar. A tampa abre antes de mostrar a carta. Testes cobrem o acesso ao baú nos seis modos.
+
+## Preparo com gestos
+
+No restaurante, cada pedido tem passos ilustrados. Abra o pão arrastando pela guia; selecione a faca e faça dois cortes para frango e vegetais; segure o frasco de molho; enrole e só então sirva. A câmera aproxima da bancada e o prazo pausa durante o gesto. Voltar cancela apenas o ingrediente atual. As imagens SVG originais estão em `dist/icons/`, e os modelos e validação de gestos em `dist/kitchen.js`.
+
+A pesca tem retorno visual da tensão, linha curvada e animação de captura; as teclas do ritmo respondem ao toque e a prévia das torretas sinaliza posições inválidas.

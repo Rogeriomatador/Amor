@@ -15,3 +15,10 @@ verify_forest.py
 reward_fix.py
 polish_review.py
 finalize_review.py
+
+integrate_cooking.py
+cooking_styles_tests.py
+fix_cook_guide.py
+feedback4.py
+finish_details.py
+final_kitchen.py
